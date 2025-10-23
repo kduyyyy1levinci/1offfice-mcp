@@ -1,4 +1,4 @@
-import { ResourceTemplate } from '@modelcontextprotocol/sdk/server/mcp';
+import { ResourceTemplate } from '@modelcontextprotocol/sdk/server/mcp.js';
 import { server } from '../server';
 
 server.registerResource(

@@ -7,5 +7,9 @@ export const config = {
     tokenSecret: process.env.MCP_TOKEN_SECRET || 'supersecret',
     tokenExpiresIn: process.env.MCP_TOKEN_EXPIRES_IN || '1h',
     serverVersion: process.env.MCP_SERVER_VERSION || '0.0.1',
-    port: parseInt(process.env.PORT || '3000', 10)
+    port: parseInt(process.env.PORT || '3000', 10),
+    oneOfficeUrl: process.env.ONE_OFFICE_API_URL || '',
+    oneOfficeAccessTokenPersonnel: process.env.ONE_OFFICE_ACCESS_TOKEN_PERSONNEL || '',
+    oneOfficeAccessTokenLeave: process.env.ONE_OFFICE_ACCESS_TOKEN_LEAVE || '',
+
 };
